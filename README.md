@@ -1,6 +1,6 @@
 # Zipper
 
-![Logo](screenshots/icon.png)
+![Icon](screenshots/icon.png)
 
 The independent single file archives extractor and files compressor for web servers.
 
