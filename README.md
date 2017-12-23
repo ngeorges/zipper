@@ -2,7 +2,7 @@
 
 ![Logo](screenshots/icon.png)
 
-An independent single file archives extractor and files compressor for web servers.
+The independent single file archives extractor and files compressor for web servers.
 
 Zipper detects archives and you choose which one to extract. You can also compress files to create archives.
 

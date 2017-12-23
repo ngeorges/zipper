@@ -302,9 +302,9 @@ class Zipper
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="A Gravatar validator with an interface.">
+		<meta name="description" content="The independent single file archives extractor and files compressor for web servers.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<link rel="shortcut icon" href="https://github.com/nerkarso/zipper/blob/master/screenshots/icon.png?=0.1.0" type="image/png">
+		<link rel="shortcut icon" href="https://raw.githubusercontent.com/nerkarso/zipper/master/screenshots/icon.png?=0.1.0" type="image/png">
 		<title>Zipper</title>
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
