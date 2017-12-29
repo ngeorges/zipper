@@ -40,7 +40,7 @@ Zipper detects archives and you choose which one to extract. You can also compre
 1. Enter **Compression Path** to archive or leave empty as default to current directory `(optional)`.
 2. Click **Compress**.
 
-### Credits
+## Credits
 
 - [The Unzipper](https://github.com/ndeet/unzipper)
 
