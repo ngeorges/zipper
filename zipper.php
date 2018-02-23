@@ -1,12 +1,4 @@
 <?php
-/**
- * Extract .zip, .rar and .gz archives or compress files on web servers.
- *
- * @author  Ner Karso
- * @license MIT
- * @version 0.1.0
- */
-define('VERSION', '0.1.0');
 
 $timestart = microtime(true);
 $GLOBALS['status'] = array();
@@ -302,12 +294,30 @@ class Zipper
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="The independent single file archives extractor and files compressor for web servers.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<link rel="shortcut icon" href="https://raw.githubusercontent.com/nerkarso/zipper/master/screenshots/icon.png?=0.1.0" type="image/png">
-		<title>Zipper</title>
-		<!-- CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+		
+        <!-- Meta -->
+        <meta name="description" content="The independent single file archives extractor and files compressor for web servers.">
+        <meta name="keywords" content="archive, compress">
+        <meta name="author" content="Ner Karso">
+        <!-- /Meta -->
+
+        <!-- Facebook meta -->
+        <meta property="og:title" content="Zipper">
+        <meta property="og:description" content="The independent single file archives extractor and files compressor for web servers.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://raw.githubusercontent.com/nerkarso/zipper/master/screenshots/icon.png?=1">
+        <meta property="og:image:type" content="image/png">
+        <!-- /Facebook meta -->
+		
+        <title>Zipper</title>
+
+        <!-- Icons -->
+        <link rel="icon" href="https://raw.githubusercontent.com/nerkarso/zipper/master/screenshots/icon.png?=1" type="image/png">
+        <!-- /Icons -->
+		
+        <!-- Stylesheets -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 		<style>
 			a,
 			button {
@@ -375,7 +385,7 @@ class Zipper
 				fill: var(--danger);
 			}
 		</style>
-		<!-- /CSS -->
+		<!-- /Stylesheets -->
 	</head>
 
 	<body>
@@ -480,10 +490,10 @@ class Zipper
 		</main>
 		<!-- /Main -->
 
-		<!-- JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script>
-		<!-- /JS -->
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+		<!-- /Scripts -->
 	</body>
 
 	</html>
